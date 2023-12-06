@@ -1,0 +1,20 @@
+ <div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+            {{#if posts.length}}
+                <h2>Your Blog Posts</h2>
+                {{#each posts}}
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="/post/{{id}}" class="black-link">{{title}}</a></h5>
+                            <p class="card-text blog-content">{{content}}</p>
+                        </div>
+                    </div>
+                {{/each}}
+            {{else}}
+                <h3>No posts</h3> 
+                <p><a href="/newpost"></a></p>
+            {{/if}}
+        </div>
+    </div>
+</div>

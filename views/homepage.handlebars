@@ -1,0 +1,11 @@
+{{#each posts as |post|}}
+<a href="/post/{{post.id}}">
+    <div class="card my-4">
+        <div class="card-header blog-title">
+            <h5 class="card-title">{{{post.title}}}</h5>
+</a>
+<div class="card-body">
+    <p class="card-text blog-content mb-0">{{{post.content}}}</p>
+</div>
+</div>
+{{/each}}
