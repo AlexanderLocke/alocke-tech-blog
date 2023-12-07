@@ -13,6 +13,9 @@
 ## Description 
 This is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. The site is deployed on Heroku. This app uses Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
+Link to application: https://dry-shelf-17113-5bf9228cf01f.herokuapp.com/signup
+
+
 ![screenshot](/content/screenshot.jpg)
 
 
